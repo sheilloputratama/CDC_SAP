@@ -22,6 +22,11 @@ namespace AkademikADOApp
             {
                 conn = new SqlConnection(connString);
                 conn.Open();
-             
+                lblStatus.Text = "Status: Database Connected";
+                MessageBox.Show("koneksi ke Database Berhasil");
+
+        }
+
+
     }
 }

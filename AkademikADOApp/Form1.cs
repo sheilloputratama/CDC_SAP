@@ -13,6 +13,10 @@ namespace AkademikADOApp
         {
             InitializeComponent();
         }
+        //Object sqlConnection
+        SqlConnection conn = null;
+
+
 
     }
 }
